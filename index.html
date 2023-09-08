@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 data-testid="page-title">Personal Information</h1>
+    </header>
+    <main>
+        <section data-testid="slackName">
+            <h2>Slack Name</h2>
+            <ul>
+                <li data-testid="slackUserName">Felix</li>
+            </ul>
+        </section>
+        <section data-testid="slackDisplayPicture">
+            <h2>Slack Display Picture</h2>
+            <img src="slackDisplayPicture.jpg" height="20%" width="40%" alt="Felix">
+            
+        </section>
+
+        <section data-testid="currentDayOfTheWeek">
+            <h2>Current Day of The Week</h2>
+            <p data-testid="currentDayOfTheWeek"><span id="currentDayOfTheWeek"></span></p>
+        </section>
+
+        <section data-testid="currentUTCTime">
+            <h2>Current UTC Time</h2>
+            <p data-testid="currentUTCTime"> <span id="currentUTCTime"></span></p>
+        </section>
+
+        <section data-testid="myTrack">
+            <h2>Track</h2>
+            <p data-testid="myTrack">Frontend</p>
+        </section>
+        
+        <section data-testid="githubURL">
+            <h2>GitHub URL</h2>
+            <p data-testid="githubURL"> <a href="https://github.com/PhelixHaradaywale"> GitHub URL</a></p>
+        </section>           
+              
+
+        
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

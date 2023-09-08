@@ -1,0 +1,37 @@
+/* Add your CSS styles here */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: rgb(85, 62, 102);
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    background-color: rgb(133, 116, 116);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: blanchedalmond;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Add more CSS styles as needed */
